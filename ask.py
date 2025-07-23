@@ -126,9 +126,9 @@ def ssh_to_generate(question, server_hostname="quadro.kemt.fei.tuke.sk",
 def main():
     # Configuration for server connection
     server_config = {
-        "server_host": "quadro.kemt.fei.tuke.sk",
-        "server_user": "bilozor",
-        "server_password": "studentkemt123"
+        "server_host": "ssh", #Your own ssh server 
+        "server_user": "user", #You
+        "server_password": "pass" #Your password
     }
     
     # Get Pepper's IP address from the user
@@ -137,8 +137,8 @@ def main():
     # Configuration for Pepper connection
     pepper_config = {
         "pepper_hostname": pepper_ip,
-        "pepper_username": "nao",
-        "pepper_password": "pepper"
+        "pepper_username": "user", #NAO Username
+        "pepper_password": "pass" #Your password
     }
     
     # Make Pepper greet the user
