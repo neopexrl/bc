@@ -120,8 +120,8 @@ def main():
     # Pepper robot SSH credentials
     pepper_config = {
         "pepper_hostname": args.pepper_ip if args.pepper_ip else "147.232.156.65",  # Use provided IP or default
-        "pepper_username": "nao",
-        "pepper_password": "pepper",
+        "pepper_username": "user", #NAO Username
+        "pepper_password": "pass", #Your password
         "pepper_port": 22
     }
     
